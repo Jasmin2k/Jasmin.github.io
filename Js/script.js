@@ -34,10 +34,6 @@ function searchmovies(searchedmovies){
     });
 }
 
-function save(mov){
-    localStorage.setItem('nominated movies: ', JSON.stringify(movies));
-}
-
 var list =[];
 function movieSelected(imdbID){
 
